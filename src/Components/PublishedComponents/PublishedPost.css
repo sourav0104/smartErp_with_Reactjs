@@ -1,0 +1,41 @@
+.container1{
+    background: #ccc;
+    margin: 50px 0px;
+    width: 400px;
+    height: 470px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 60px;
+    box-shadow: 2px 2px 4px #000;
+}
+.container1 h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul li{
+    margin:10px 30px;
+    padding: 6px 10px;
+}
+.container1 li h2{
+     color: crimson;
+}
+.container1 li p{
+    color: #111;
+    font-weight: 600;
+}
+/* .container1::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 5px;
+  }
+.container1::-webkit-scrollbar-track {
+    background: #000; 
+}
+.container1::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}    */

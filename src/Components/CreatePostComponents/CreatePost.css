@@ -1,0 +1,74 @@
+.container{
+    background: #ccc;
+    margin: 50px 0px;
+    width: 400px;
+    height: 460px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 60px 20px;
+    box-shadow: 2px 2px 4px #000;
+}
+.container h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+.container h5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .title{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    color: crimson;
+    font-weight: bold;
+}
+.container .title label{
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+.container .title input{
+    margin: 5px 0px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 4px #000;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    color: crimson;
+    font-weight: bold;
+}
+.container .content label{
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    margin: 2px 0px;
+}
+.container .content textarea{
+    margin: 2px 0px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 4px #000;
+    
+}
+.container .btn button{
+    margin: 10px 10px;
+   padding: 10px 70px;
+   box-sizing: border-box;
+   border: none;
+   border-radius: 6px;
+   font-weight: 800;
+   box-shadow: 2px 2px 4px #000;
+    background: crimson;
+    color: white;
+    transition: background .2s ease-in;
+}
+.container .btn button:hover{
+    background:#775ada;
+}

@@ -1,0 +1,39 @@
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.searchbar .searchinput{
+    border: none;
+    width: 400px;
+    border-bottom:3px solid black;
+    outline: none;
+    border-radius: 3px;
+    border-color: crimson;
+    font-size: 20px;
+}
+.searchbar .searchinput::placeholder{
+    opacity: .7;
+    color: black;
+    font-size: 15px;
+}
+.searchbar .searchicon{
+    position: relative;
+}
+.searchbar .searchicon .round{
+    position: absolute;
+    bottom: -7px;
+    left: -26px;
+    color: red;
+}
+.searchbar .cancleicon{
+    position: relative;
+}
+.searchbar .cancleicon .wrong{
+    position: absolute;
+    bottom: -7px;
+    left: 7px;
+    color: red;
+
+}
